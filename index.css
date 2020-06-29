@@ -22,7 +22,7 @@ body{
       background-image: url(./images/vgs2.jpg);
     }
     75%{
-      background-image: url(./images/vgs4.jpg);
+      background-image: url(./images/Iron-Rich-Foods_steps7.jpg);
     }
   }
   
@@ -85,9 +85,17 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 15px;
   }
   .icons img{
     width: 40px;
     height: 40px;
+  }
+
+  h2{
+    text-align: center;
+    font-family: "Sacramento";
+    color: rgb(21, 248, 59);
+  }
+  .handles{
+    margin-top: 15px;
   }
