@@ -3,23 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
     <link href="index.css" rel="stylesheet" type="text/css">
     <title>eCommerce</title>
 </head>
 <body>
-    <div class="container">
+    <div>
+        <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">
+              <img src="./images/vgs.jpg" alt="logo" style="width:70px;">
+            </a>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pages">PAGES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacts">CONTACT US</a>
+              </li>
+            </ul><span>
+            <form class="form-inline" action="/index.html">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form></span>
+        </nav>
+    </div>
+    <div class="container-fluid">
         <div class="bg">
             <div class="outer">
                 <div class="details">
-                    <nav class="nav">
-                        <ul>
-                            <li><a href="#home">home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#gallery">Gallery</a></li>
-                            <li><a href="#pages">Pages</a></li>
-                            <li><a href="#contacts">Contact Us</a></li>
-                        </ul>
-                    </nav>
                     <div class="home">
                         <h1>Online Agricultural eCommerce</h1>
                         <h2>
@@ -33,7 +57,7 @@
         <main>
             <div class="produce">
                 <img src="./images/vgs.jpg" />
-                <h2>Additives</h2>
+                <h2>Cereals</h2>
             </div>
             <div class="produce">
                 <img src="images/vgs2.jpg" >
@@ -41,13 +65,52 @@
             </div>
             <div class="produce">
                 <img src="images/crs1.jpg">
-                <h2>Nuts</h2>
+                <h2>Vegetables</h2>
             </div>
             <div class="produce">
                 <img src="images/vgs4.jpg">
-                <h2>Greens</h2>
+                <h2>Tubers</h2>
             </div>
         </main>
     </div>
 </body>
+<footer>
+    <section class="patners">
+        <div class="genre">
+            <img src="./images/egaplogo_m.jpg" />
+        </div>
+        <div class="genre">
+            <img src="images/eleven-350x204.png" >
+        </div>
+        <div class="genre">
+            <img src="images/six-288x204.png">
+        </div>
+        <div class="genre">
+            <img src="images/seven.png">
+        </div>
+        <div class="genre">
+            <img src="images/Kephis-Logo-350x204.png">
+        </div>
+        <div class="genre">
+            <img src="images/imageedit_7_6080784108-350x204.png">
+        </div>
+        <div class="genre">
+            <img src="images/imageedit_5_7286303997-300x117.png">
+        </div>
+        <div class="genre">
+            <img src="images/imageedit_3_8785347953-205x204.png">
+        </div>
+        <div class="genre">
+            <img src="images/imageedit_1_9239622958-350x204.png">
+        </div>
+        </section>
+        <aside class="icons">
+        <a href="#" target="_blank"><img class="icon" src="images/ig.png" alt=""></a>
+        <a href="#" target="_blank"><img class="icon" src="images/fb.png" alt=""></a>
+        <a href="#" target="_blank"><img class="icon" src="images/lkn.jpeg" alt=""></a> ..
+        <a href="#" target="_blank"><img class="icon" src="images/twitter.png" alt=""></a>
+        <a href="#" target="_blank"><img class="icon" src="images/google.png" alt=""></a>
+        <a href="#" target="_blank"><img class="icon" src="images/git.png" alt=""></a>
+        </aside>
+</footer>
 </html>

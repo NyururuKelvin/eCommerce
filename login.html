@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+<body>
+    <form name="loginForm">
+        <table>
+            <tr>
+                <th> eCommerce-sign </th>
+            </tr>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" size=25 name="userid" placeholder="user name"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="Password" size=25 name="pwd" placeholder="password"></td>
+            </tr>
+            <tr>
+                <td><input type="Reset"></td>
+                <td><input type="submit" onclick="return check(this.form)" value="Login"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <script src="Js/login.js"></script>
+</body>
+
+</html>
