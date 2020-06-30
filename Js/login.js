@@ -1,9 +1,9 @@
 function check(form)
 {
 
-if(form.userid.value == "kelvin" && form.pwd.value === "nyururu")
+if(form.userid.value == "Kelvin" && form.pwd.value === "nyururu")
 {
-	alert ("Login successfully");
+	alert ("Login successful");
 	window.location = "index.html"; // Redirecting to users home page.
 	return false;
 	
@@ -21,19 +21,25 @@ else if(form.userid.value == "Wanzala" && form.pwd.value === "wanzala")
 }
 else if(form.userid.value == "Israel" && form.pwd.value === "israel")
 {
-	window.location = "userhomepage.html"; // Redirecting to users home page.
+	window.location = "index.html"; // Redirecting to users home page.
+	return false;
+	
+}
+else if(form.userid.value == "Peter" && form.pwd.value === "peter")
+{
+	window.location = "index.html"; // Redirecting to users home page.
 	return false;
 	
 }
 else if(form.userid.value == "admin" && form.pwd.value === "admin")
 {
-	window.location = "Admin.html"; // Redirecting to users admin page.
+	window.location = "index.html"; // Redirecting to users admin page.
 	return false;
 
 }
 else
 {
-	alert("Error invalid Username or Password")
+	alert("Error: invalid Username or Password")
 	return false;
 }
 }
