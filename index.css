@@ -83,8 +83,7 @@ body{
   .icons{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     background-color: rgb(21, 248, 59);
     margin-bottom: 5px;
   }
@@ -95,7 +94,7 @@ body{
 
   h2{
     text-align: center;
-    font-family: "Sacramento";
+    font-family: 'EB Garamond', serif;
     color: rgb(21, 248, 59);
     font-size: 45x;
   }
@@ -104,5 +103,5 @@ body{
     margin-bottom: 0px;
   }
   .links{
-    font-size: 50px;
+    font-size: 40px;
   }
