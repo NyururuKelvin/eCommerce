@@ -1,0 +1,17 @@
+body{
+    background-image: url("./images/Iron-Rich-Foods_steps7.jpg");
+    background-size: cover;
+}
+
+.container{
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 32%;
+    top: 36%;
+    border-radius: 5px;
+    font-size: 2em;
+}
+.container table>tr>th{
+    text-align: center;
+}
