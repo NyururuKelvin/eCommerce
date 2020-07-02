@@ -1,0 +1,189 @@
+.overall{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+/* .slider{
+    background-image: url(mixed.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100%;
+    width:100%;
+    animation: slide 50s infinite;
+}
+@keyframes slide{
+0%{background-image:url(kaboom1.jpeg);}
+20%{background-image:url(kaboom3.jpeg);}
+30%{background-image:url(kaboom4.jpeg);}
+40%{background-image:url(kaboom5.jpeg)}
+} */
+.overall p{
+    color: black;
+}
+#two{
+    color:black;
+}
+sectionA p {
+color:black;
+}
+.three{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+h1{
+    color: black;
+    font-family:"helvetica",sans-serif;
+    margin-left: 600px;
+}
+.four{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+h2{
+    color: black;
+}
+.four p{
+    color:black;
+}
+#free p{
+      color:black;
+}
+img{
+    height:150px;
+    width:200px;
+}
+#carrot{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+}
+#carrot p{
+    color: black;
+}
+.karrot p{
+color:black;
+}
+.container{
+    padding: 10px;
+    margin:10px 0;
+    justify-content:space-between;
+    width: 98%;
+}   
+span.psw{
+    float:right
+} 
+/* @media screen and (max width:300px){
+span.psw{
+display: block;
+float:none;
+}  */
+
+form{
+    border: 3px solid blue;
+}   
+.cancelbtn{
+    width:10%;
+    background-color: brown;
+}   
+button:hover{
+    background-color: cyan;
+}
+input[type=text],[type=password]{
+    width:70%
+}
+form label{
+    color: blue;
+}
+h1{
+    align-content: center;
+}
+body{
+    padding-bottom: 70px;
+}
+sectionA{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+#two{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+.five{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+.displaced{
+    margin-left: 500px;
+    padding-bottom: 100px;
+}
+#six{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+.seven{
+    display: flex;
+    justify-content: space-around;
+}
+.eight{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:100px;
+    padding-bottom: 150px;
+}
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
