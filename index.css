@@ -62,10 +62,10 @@ body{
     color: #ffffff;
   }
   .home h2 span:nth-child(1){
-    color: red;
+    color: #ffffff;
   }
   .home h2 span:nth-child(2){
-    color: yellow;
+    color: #ffffff;
   }
   main{
     display: flex;
