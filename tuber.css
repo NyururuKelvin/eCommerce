@@ -46,7 +46,7 @@ p{
         border: 1px solid black;
         border-collapse: collapse;
       }
-      [00:02, 03/07/2020] Biggie Bro: .cart-header {
+    .cart-header {
         font-weight: bold;
         font-size: 1.25em;
         color: #333;
@@ -78,7 +78,7 @@ p{
     .cart-quantity {
         width: 35%;
     }
-    [00:02, 03/07/2020] Biggie Bro: .cart-item-title {
+    .cart-item-title {
         color: #333;
         margin-left: .5em;
         font-size: 1.2em;
